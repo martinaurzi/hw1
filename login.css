@@ -1,0 +1,146 @@
+@media (min-width: 501px) and (max-width: 1024px){
+    body #logo{
+        font-size: 1.8em;
+        margin: 5% 0 20% 0;
+    }
+
+    body .main{
+        max-width: 50%;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 500px){
+    body #logo{
+        font-size: 1.5em;
+        margin: 5% 0 50% 0;
+    }
+
+    body .main{
+        max-width: 70%;
+    }
+
+    body p.error{
+        padding: 7px;
+    }
+
+    form .username, form .password, .main form input, .main .signUp p, .signUp .signUp-button{
+        font-size: 0.8em;
+    }
+
+    form .username, form .password{
+        margin-bottom: 12%;
+    }
+
+    html{
+        height: 100vh;
+    }
+
+    .main form{
+        margin-bottom: 25%;
+    }
+
+    .main form input{
+        padding: 10px 0 10px 6px;
+    }
+
+    .main .submit input{
+        padding: 8px 0;
+    }
+
+    .signUp .signUp-button{
+        padding: 8px 15px;
+    }
+}
+
+body{
+    color: white;
+    margin: 0;
+    font-size: 18px;
+
+    background-image: url("header-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form input{
+    background:rgba(255,255,255,0.3);
+    color:white;
+    font-size: 15px;
+    width: 100%;
+	padding: 15px 0 15px 10px;
+
+    border:none;
+	border-radius:25px;
+}
+
+#logo{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5em;
+    margin-top: 0.5%;
+	margin-bottom: 10%;
+}
+
+.main{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+p.error{
+    display: block;
+    background-color: #e22134;
+    color: white;
+    text-align: center;
+    padding: 14px 14px 12px;
+    font-size: 0.8em;
+    line-height: 15px;
+}
+
+.signUp{
+    text-align: center;
+	margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+.signUp p{
+    margin-bottom: 10%;
+}
+
+.signUp-button{
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    color: #491056;
+    background-color: white;
+	padding: 15px 20px;
+	border-radius: 25px;
+    transition: background-color 0.35s ease-out;
+}
+
+.signUp-button:hover{
+    background-color: #a54069;
+    color: white;
+}
+
+.submit input{
+    cursor: pointer;
+	width: 50%;
+    border: none;
+	padding: 15px 0;
+	border-radius: 25px;
+	color: white;
+	background-color: #af3b98;
+    transition: background-color 0.35s ease-out;
+}
+
+.submit input:hover{
+    background-color: #862d74;
+}
+
+.username, .password{
+    text-align: left;
+    margin-bottom: 8%;
+}

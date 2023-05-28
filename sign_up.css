@@ -1,0 +1,200 @@
+@media (min-width: 501px) and (max-width: 1024px){
+    body #logo{
+        font-size: 1.8em;
+        margin: 5% 0 20% 0;
+    }
+
+    body .main{
+        max-width: 50%;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 500px){
+    body #logo{
+        font-size: 1.5em;
+        margin: 5% 0 25% 0;
+    }
+
+    body .main{
+        max-width: 70%;
+    }
+
+    body p.error{
+        padding: 7px;
+    }
+
+    .main form input, .main .submit, .signIn .signIn-button{
+        font-size: 0.8em;
+    }
+
+    form .username, form .password, form .confirm_password, form .planet{
+        font-size: 0.8em;
+        margin-bottom: 2%;
+    }
+
+    .error{
+        font-size: 0.6em;
+    }
+
+    form .error span{
+        font-size: 0.7em;
+    }
+
+    html{
+        height: 100vh;
+    }
+
+    .main form{
+        margin-bottom: 30%;
+    }
+
+    .main form img{
+        width: 6px;
+        height: 6px;
+    }
+
+    .main form input{
+        padding: 10px 0 10px 6px;
+    }
+
+    .main .signIn p{
+        font-size: 0.7em;
+    }
+
+    .main .submit input{
+        padding: 8px 0;
+    }
+
+    .signIn .signIn-button{
+        padding: 8px 15px;
+    }
+}
+
+body{
+    color: white;
+    margin: 0;
+    font-size: 18px;
+
+    background-image: url("header-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.error label, .error span{
+    color: #cb1a2c;
+    font-weight: bold;
+}
+
+.error-msg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.error span{
+    opacity: 1;
+}
+
+.error img{
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+}
+
+.error input{
+    border: 1px solid #d01b2d;
+}
+
+.main{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+form img{
+    opacity: 0;
+    width: 10px;
+    margin-right: 10px;
+}
+
+form span {
+    opacity: 0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    transition: opacity 0.3s ease;
+}
+
+label input{
+    height: 15px;
+}
+
+#logo{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5em;
+    margin-top: 0.5%;
+    margin-bottom: 10%;
+}
+
+input{
+    background:rgba(255,255,255,0.3);
+    color:white;
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 0 15px 10px;
+
+    border:none;
+	border-radius:25px;
+}
+
+.signIn{
+    margin-top: 15%;
+    margin-bottom: 8%;
+}
+
+.signIn p{
+    margin-bottom: 5%;
+}
+
+.signIn-button{
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    color: #491056;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 25px;
+    transition: background-color 0.35s ease-out;
+}
+
+.signIn-button:hover{
+    background-color: #a54069;
+    color: white;
+}
+
+.submit{
+    margin-top: 5%;
+}
+
+.submit input{
+    cursor: pointer;
+    width: 50%;
+    border: none;
+	padding: 15px 0;
+	border-radius: 25px;
+	color: white;
+	background-color: #af3b98;
+    transition: background-color 0.3s ease-out;
+}
+
+.submit input:hover{
+    background-color: #862d74;
+}
+
+.username, .email, .password, .confirm_password, .planet{
+    text-align: left;
+    margin-bottom: 20px;
+}

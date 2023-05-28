@@ -1,0 +1,514 @@
+@media (min-width: 501px) and (max-width: 1024px){
+    body .subtitle{
+        font-size: 0.8em;
+    }
+
+    body .userInfo{
+        top: -60px;
+        font-size: 0.7em;
+    }
+    
+    .close-menu{
+        cursor: pointer;
+        font-size: 0.6em;
+        margin-right: 0;
+    }
+
+    .close-menu:hover{
+        color: #af3b98;
+    }
+
+    footer .footer-container{
+        font-size: 0.6em;
+    }
+
+    .link-menu{
+        cursor: pointer;
+        color: #4c1159;
+        text-decoration: none;
+        font-size: 0.7em;
+        margin-bottom: 20%;
+    }
+    
+    .link-menu:hover{
+        color: #af3b98;
+    }
+
+    .menu-header{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    #menu.hidden, .open-menu.hidden{
+        display: none;
+    }
+
+    nav #links{
+        display: none;
+    }
+  
+    nav #logo{
+        font-size: 0.7em;
+    }
+
+    nav #menu {
+        display: block;
+        margin-right: 5%;
+    }
+  
+    #menu div{
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        margin: 5px 0;
+    }
+
+    .open-menu{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        z-index: 2;
+        width: 15%;
+    
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        padding: 10px 8px;
+        background-color: rgba(220, 188, 218, 0.9);
+    }
+
+    .userInfo .profile-pic{
+        height: 100px;
+        width: 100px;
+    }
+
+    .userInfo .separator-line{
+        width: 100px;
+    }
+
+    .userInfo .location img{
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    #album-view-container #album-view{
+        margin: 30px 20px;
+    }
+
+    #album-view .box{
+        width: 50%;
+    }
+
+    body .subtitle{
+        font-size: 0.7em;
+    }
+
+    body .userInfo{
+        top: -40px;
+        font-size: 0.6em;
+    }
+
+    .close-menu{
+        cursor: pointer;
+        font-size: 0.6em;
+        margin-right: 0;
+    }
+
+    .close-menu:hover{
+        color: #af3b98;
+    }
+
+    footer .footer-container{
+        font-size: 0.7em;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+  
+    footer .footer-item {
+        padding: 0;
+    }
+
+    .footer-item #logo-footer{
+        display: none;
+    }
+
+    #header{
+        height: 150px;
+    }
+
+    .link-menu{
+        cursor: pointer;
+        color: #4c1159;
+        text-decoration: none;
+        font-size: 0.7em;
+        margin-bottom: 20%;
+    }
+    
+    .link-menu:hover{
+        color: #af3b98;
+    }
+
+    .menu-header{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    #menu.hidden, .open-menu.hidden{
+        display: none;
+    }
+
+    #modal-view-container #modal-view{
+        align-items: center;
+    }
+
+    #modal-view .modal-header{
+        font-size: 0.6em;
+    }
+
+    .modal-header .icons-container{
+        width: 25%;
+    }
+
+    #modal-view .modal-content{
+        justify-content: center;
+    }
+
+    #modal-view .modal-content img{
+        max-width: 80%;
+    }
+    
+    nav #links{
+        display: none;
+    }
+  
+    nav #logo{
+        font-size: 0.7em;
+    }
+
+    nav #menu {
+        display: block;
+        margin-right: 5%;
+    }
+  
+    #menu div{
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        margin: 5px 0;
+    }
+
+    .open-menu{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        z-index: 2;
+        width: 15%;
+    
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        padding: 10px 8px;
+        background-color: rgba(220, 188, 218, 0.9);
+    }
+
+    .userInfo .profile-pic{
+        height: 80px;
+        width: 80px;
+    }
+
+    .userInfo .separator-line{
+        width: 80px;
+    }
+
+    .userInfo .location img{
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 400px){
+    footer .footer-container{
+        font-size: 0.6em;
+        margin: 10px 20px;
+    }
+}
+
+#album-view{
+    margin: 30px auto 20px auto;
+    width: 80%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#album-view img{
+    cursor: pointer;
+    width: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body{
+    margin: 0;
+    font-size: 20px;
+    background-color: #010b21;
+}
+
+.box{
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.close-button{
+    cursor: pointer;
+    color: #010b21;
+    font-weight: bold;
+    transition: color 0.35s ease-out;
+}
+
+.close-button:hover{
+    color: #af3b98;
+}
+
+.footer-container{
+    color: #1f082b; 
+    padding: 4% 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-item{
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0 15px;
+    height: 100%;
+}
+
+.footer-item strong{
+    display: flex;
+    color: #af3b98;
+    font-size: 1em;
+    margin: 20px 0;
+  }
+  
+.footer-col p{
+    font-size: 0.7em;
+    padding: 3px 0 15px;
+    margin: 0;
+}
+
+.icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+}
+  
+#header{ 
+    background-image: url("header-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    font-size: 1em;
+    position: relative;
+    
+    display: flex;
+}
+
+#header::before{
+    background-color: rgba(0, 0, 0, 0.3);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 20px;
+}
+
+.liked-button{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    background: red url(heart.svg) center no-repeat;
+    transition: background 0.35s ease-out;
+}
+
+.liked-button:hover{
+    background: #cc0000 url(heart.svg) center no-repeat;
+}
+
+#links{
+    display: flex;
+    margin-left: 50%; 
+}
+
+#links a{
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    background-color: rgba(36, 9, 43, 0.5);
+    border: 1.5px solid rgba(164, 58, 109, 0.5);
+    border-radius: 50px;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 5px;
+    transition: background-color 0.3s ease-out;
+}
+
+#links a:hover{
+    background-color: rgba(161, 67, 148, 0.5);
+}
+
+.location{
+    color: white;
+    font-size: 0.8em;
+}
+
+.location img{
+    height: 15px;
+    width: 15px;
+    margin-right: 3px;
+}
+
+#logo{
+    color: white;
+}
+
+#logo, .modal-header h2, .no-results, #logo-footer{
+    font-family: 'Press Start 2P', cursive;
+}
+
+#modal-view{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 2;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-container{
+    position: relative;
+    padding: 1rem;
+    max-width: 80vw;
+    max-height: 85vh;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    overflow-y: auto;
+    font-size: 18px;
+}
+
+.modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 3%;
+}
+
+.modal-header h2{
+    font-size: 1em;
+    color: #010b21;
+    margin-right: 1%;
+}
+
+.modal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 97%;
+}
+
+.modal-content img{
+    max-width: 40%;
+    max-height: 40%;
+    margin-bottom: 2%;
+}
+
+#modal-view.hidden{
+    display: none;
+}
+
+.no-scroll{
+    overflow: hidden; 
+}
+
+.no-results{
+    text-align: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.profile-pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(astronaut-icon.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#separator{
+    display: inline-block; 
+    width: 1px;
+    color: white;
+    background: currentColor;
+}
+
+.separator-line{
+    height: 1px;
+    width: 150px;
+    color: white;
+    background-color: currentColor;
+    margin-bottom: 1%;
+}
+
+.subtitle{
+    color: #af3b98;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    top: -75px;
+    z-index: 1;
+}
+
+.userInfo p{
+    color: white;
+    margin-bottom: 1%;
+    font-size: 1em;
+    font-weight: bold;
+}
